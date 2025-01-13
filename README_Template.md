@@ -59,7 +59,7 @@ The files in this project are three major directories
   
 ⛔️⛔️`Carefully examine each file for successful Completion of your project`⛔️⛔️
 
-[⬆️⬆️⬆️Back To Top⬆️⬆️⬆️](#deadlines)
+[<h2>⬆Back To Top⬆</h2>](#deadlines)
 
 ## `PURPOSE OF THE ASSIGNMENT`
 * This assignment will give you practice with the vast majority of Python topics from this course. 
@@ -98,7 +98,7 @@ You must submit in your Github project by the design deadline:
     * No user input or output should occur in the file processing function.
   * 🔶`You should have 3 implemented functions at this point`🔶
 
-[⬆️⬆️⬆️Back To Top⬆️⬆️⬆️](#deadlines)
+[<h2>⬆Back To Top⬆</h2>](#deadlines)
 
 ## `ASSIGNMENT REMINDERS & WORKING AS A PAIR/GROUP`
 * Follow the programming assignment requirements document for comments, formatting, etc. 
@@ -131,7 +131,7 @@ For output, unless your assignment specifies that something must be output to a 
 
 Graphs created by the program should be saved to a .jpg file. The user chooses the file name.
 
-[⬆️⬆️⬆️Back To Top⬆️⬆️⬆️](#deadlines)
+[<h2>⬆Back To Top⬆</h2>](#deadlines)
 
 ## `PROGRAMMING REQUIREMENTS`
 After your design is complete, it’s time to start programming and then testing:
@@ -170,7 +170,7 @@ After your design is complete, it’s time to start programming and then testing
    - ✅`Each function should list who was in charge of programming it.`✅ 
    - If both partners worked together in pair programming fashion, list both partners but also note who was driver.
 
-[⬆️⬆️⬆️Back To Top⬆️⬆️⬆️](#deadlines)
+[<h2>⬆Back To Top⬆</h2>](#deadlines)
 
 ## `FINAL PRESENTATION `
 
@@ -201,7 +201,7 @@ There are many opportunities to be creative and thoughtful when programming.
   4. Particularly well done presentation, as long as there is commenting in the code
   5. Particularly difficult student-designed question (that works)
 
-[⬆️⬆️⬆️Back To Top⬆️⬆️⬆️](#deadlines)
+[<h2>⬆Back To Top⬆</h2>](#deadlines)
 
 ## `What to Submit (Commit & Push) in GitHub`
 
@@ -253,4 +253,4 @@ Type the Reflection INSIDE the respective markdown and addressing the following 
    
 ***Remember to commit and push your GitHub project.***
 
-[⬆️⬆️⬆️Back To Top⬆️⬆️⬆️](#deadlines)
+[<h2>⬆Back To Top⬆</h2>](#deadlines)
