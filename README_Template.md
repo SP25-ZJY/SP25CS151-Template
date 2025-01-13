@@ -33,6 +33,7 @@
 - [Self or Annotated Notes ](https://moodle.loyola.edu/course/view.php?id=89004)
 - [CS 151: Book](https://learn.zybooks.com/zybook/LOYOLACS151Spring2025)
 - [Solutions To Previous Labs and PAs](https://classroom.github.com/classrooms/193636664-sp25-zjy-cs151)
+- [PA Late Submission Form](https://forms.office.com/r/mkE8wwT1xV)
 
 ## `OVERVIEW`
 The problem to be solved will vary from group to group [PA5 Options](PA5%20Options.md). 
