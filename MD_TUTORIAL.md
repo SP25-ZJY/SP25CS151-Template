@@ -62,7 +62,6 @@ print('CS151')
 
 ## `Encrypt your File`
 
-
 ```bash
 python ./FET.py
 ```

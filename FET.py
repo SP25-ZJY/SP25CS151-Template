@@ -81,5 +81,6 @@ def main ():#line:112
     OOOOOOOOOOO00OO0O =Tk ()#line:113
     O00O00O0O0OOO000O =FileEncryptionTool (OOOOOOOOOOO00OO0O )#line:114
     OOOOOOOOOOO00OO0O .mainloop ()#line:115
+
 if __name__ =="__main__":#line:118
     main ()

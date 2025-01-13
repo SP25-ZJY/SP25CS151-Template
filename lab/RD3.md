@@ -5,3 +5,8 @@
 * Student ID: 
 
 
+
+### Encrypt Reflection
+```bash
+python ./FET.py
+```
