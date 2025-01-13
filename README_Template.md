@@ -34,6 +34,8 @@
 - [CS 151: Book](https://learn.zybooks.com/zybook/LOYOLACS151Spring2025)
 - [Solutions To Previous Labs and PAs](https://classroom.github.com/classrooms/193636664-sp25-zjy-cs151)
 - [PA Late Submission Form](https://forms.office.com/r/mkE8wwT1xV)
+- **You can use LLM (Such as ChatGPT or Gemini) as a guider but not as a problem Solver**
+  - 🟠**LLM Based Codes Will Result in Penalty and Honor Code Violation**🟠
 
 ## `OVERVIEW`
 The problem to be solved will vary from group to group [PA5 Options](PA5%20Options.md). 
