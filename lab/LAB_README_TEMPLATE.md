@@ -153,8 +153,8 @@ You must design your functions and their algorithms before you start coding.
 3. Encrypted reflection files using the `FET.py`
    1. `RD1.md` -> Reflection for Drive 1
    2. `RD2.md` -> Reflection for Drive 2
-   3. If you use a different key, it is considered unsubmitted
-
+   - <img src="enc_steps.png" alt="">
+    
 **As a reminder, reflections count toward your participation grade.**
 
 **Make sure the file in your PyCharm and Github is the same (i.e. Commit and Push)**
