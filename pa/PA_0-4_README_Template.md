@@ -1,4 +1,4 @@
-<h1> CS151 PROGRAMMING ASSIGNMENT 0</h1>
+<h1> CS151 PROGRAMMING ASSIGNMENT 1</h1>
 
 <h2> Table of Contents </h2>
 
@@ -8,6 +8,7 @@
   * [`III. PURPOSE OF THE ASSIGNMENT`](#iii-purpose-of-the-assignment)
   * [`IV. PROBLEM`](#iv-problem)
   * [`V. REQUIREMENTS ANALYSIS`](#v-requirements-analysis)
+    * [An Example Game](#an-example-game)
   * [`VI. DESIGN`](#vi-design)
   * [`VII. PROGRAMMING REQUIREMENTS`](#vii-programming-requirements)
   * [`VIII. ASSIGNMENT REMINDERS`](#viii-assignment-reminders)
@@ -21,10 +22,10 @@
 **🔵 Post any question on [Discord PA Channel](https://discord.com/channels/1316435150527004825/1316435267145695312) 🔵**
 ## `I. DEADLINES`
 
-| Deliverable | Due Date             |
-|-------------|----------------------|
-| PA-Design   | Sunday 01/20 11:59PM |
-| PA-Final    | Monday 01/27 11:59PM |
+| Deliverable | Due Date               |
+|-------------|------------------------|
+| PA-Design   | Thursday 02/06 11:59PM |
+| PA-Final    | Thursday 02/13 11:59PM |
 
 ## `II. RESOURCES`
 - [Class Examples Repo](https://github.com/SP25-ZJY/CS151)
@@ -37,70 +38,86 @@
 
 ## `III. PURPOSE OF THE ASSIGNMENT`
 
-This assignment is aimed at:
-
-1. Providing you an opportunity to use mathematical expressions, input, and output in Python.
-2. Giving you the opportunity to design a program.
-3. Providing you with an opportunity to plan for testing your program.
-4. Practicing soliciting and using input from the user.
+The purpose of this assignment is to give you:  
+1. Practice with input & output  
+2. The opportunity to use decision-making  
+3. A chance to be creative
 
 ## `IV. PROBLEM`
 
-Most people who develop computer software don’t do it for themselves or for an instructor’s imaginary scenario. 
-- Most programs are written to solve a problem or answer a real need. 
-- Even though you don’t know all of Python, you will know enough to write a simple program that does a calculation that could be helpful to someone else.
-
-Find a simple mathematical calculation that is of use to someone else (a friend, a parent, a sibling). 
-- The first step is to ask the person and get a clear idea of the need 
-  - 🟢No fair assuming your program will be helpful—you need to actually ask!.🟢 
-- Your program must ask for input values for the calculation, do the calculation, and output the result.
-
-🟡Example: Finding the area and circumference of a circle given the radius.🟡
-
-**🔴Not allowed: You may not solve a problem that is solved in the textbook, or a problem you see in class, lab, or prep!🔴**
+You are creating a text adventure game!  
+- In this game, the user gives input that affects the path of the story. 
+- You must create a game that meets the requirements in the specification below.
 
 [<h2>⬆ Back To Top ⬆</h2>](#i-deadlines)
 
 ## `V. REQUIREMENTS ANALYSIS`
 
-The first stage in your programming assignment is the requirements analysis stage. You need to:
+The first stage in your programming assignment is the requirements analysis stage.  
+- You need to make sure you understand the below requirements for what needs to be included in your story’s decision making:
 
-1. Find someone who needs a set of mathematical calculations done. 
-   - It must require more than one mathematical operation (i.e., you can’t just add 2 numbers together).
-2. Think about what you need to do to solve their problem. 
-   - What information do you need to gather, and how do you correctly calculate what they need to calculate?
-3. Gather the information you need to solve their problem.
+1. Your adventure game must have **🔺at least one decision for each🔺** of the following types:  
+    1. Make a decision based on the value of an integer.  
+    2. Make a decision based on the value of a float.  
+    3. Make a decision based on the value of a string.  
+2. Your adventure game must have a **🔺path with at least 2 decisions🔺** on it 
+   - (e.g.)
+     - I am given the option of choosing A or B. 
+       - If I make choice A which then lets me decide between X and Y; 
+       - but if I choose B I do not get to choose between X and Y, but instead do something else.   
+3. Your adventure game must have **🔺at least 1 choice that has at least 3 possible directions🔺** 
+   - (e.g.when they enter a number the game takes a different path if their number is <5, between 5 and 10, or > 10).  
+4. Your adventure game must use at least **3 different relational operators** throughout the story.  
+5. Your adventure game must have **🔺a decision where it gives the user at least two specific inputs to choose from🔺**, and does something different based on which value they input 
+   - (e.g. "enter 'green', 'red', or 'yellow'").
+6. Your adventure game **🔺must use something the user input in part of the output🔺** at least once 
+   - (e.g., asking for their name and then outputting their name every time you address them).
+7. Your adventure game must **🔺ask for at least three user inputs🔺**, but likely you'll need more than that.
+
+The game must make sense and have an actual story to it. 
+- It needs to be understandable. 
+- Consider that your professor will be reading the entire story.
+
+Your game should also not just use the exact examples used above, or used in the example below.
+
+### An Example Game
+
+Please watch the [youtube video showing an example game](http://www.youtube.com/watch?v=x0Ksedq3Z5k). 
+- It does not show all of the requirements from above, but does demonstrate a number of them. 
+- If you are having trouble understanding what is being asked of you in this assignment, be sure to watch the video, then ask for clarification if you still have questions.
 
 ## `VI. DESIGN`
 
-The second stage is to design your solution:
+The second stage is to design your solution based on the requirements:
 
-1. Ensure you understand how to solve the problem correctly. 
-   - If you don’t understand the problem steps or make incorrect assumptions, your algorithm won’t solve the problem.
-2. Write out your algorithm, including input, output, and calculations. 
-3. Test your algorithm to ensure it solves the problem correctly.  
+1. Write out your algorithm, including input, output, decisions, and calculations.  
+    1. Be sure to indent and properly number to show when a decision is nested inside another decision.  
+    2. If you have story elements that are used in multiple paths, you can label them as "story part 1," "story part 2," etc., 
+       - Then reference them by that name the next time it’s used, instead of writing it all out again. 
+       - However, you must give your full story as part of your design. 
+       - Don’t write your entire algorithm by just saying "story part X."
+2. Double check that you included all of the requirements
 
-✳️To be done on [`initial_design.md`](initial_design.md) document via a markdown:✳️
-- A description of the problem you will solve.
-- The name of the person you are solving it for and their relation to you.
-- A reference for where you looked up the calculation for the problem (could be a web link, a textbook, etc.).
-- The algorithm for your program, including input, output, and calculations.
+If you are having trouble coming up with a story, think about a book or movie you enjoyed. 
+- Be inspired by its story line or characters and come up with something original.
+
 
 ## `VII. PROGRAMMING REQUIREMENTS`
 
-After your design is complete, follow these steps:
+After your design is complete and correct, it's time to start programming and then testing:
 
-1. **Implementation**: Write your program on [`main.py`](main.py) following the below requirements and based on your design:
-   - The user must input at least one number needed for the calculation. 
-   - Output the answer to the user with text describing the number (good usability).
-   - Use mathematical symbols and functions correctly.
-2. **Testing**:
-   - Create a list of inputs and the correct output covering all possible cases on [`test_cases.xlsx`](test_cases.xlsx).
-   - Test your program with these cases and correct any errors.
-3. **Evaluation**:
-   - Ask your customer to evaluate your program. Adjust if necessary.
-   - See Feedback from professor
-   - ✳️ Updates to algorithm at this point will be done on [`final_design.md`](final_design.md) ✳️
+1. Fix design issues: If there were issues with your design, either not meeting requirements or in the format, fix that before you start writing your code.
+2. Implementation: Write your program following the requirements and based on your design.  
+    1. Follow good usability/HCI principles in your input and output (for instance, make it clear the type of input you are asking for).  
+    2. Remember to state the purpose of the program.  
+3. Testing: Make sure it works correctly; give it sample input, and check that the output is correct.  
+    1. Create test cases where each test case is a separate path through your program. 
+    2. You do not need to put the full output in the test case, just make it clear what part of the output is there.  
+    3. Note that if you have a particularly large program that results in a large number of control paths, you only need to list 10 test cases. 
+    4. If you have fewer than 10 paths through your program, then you should list one test case for each path.
+    5. Test that you can get through each path correctly by running your code using the output. 
+    6. If it doesn’t give the expected output, find the error and fix it. 
+this point will be done on [`final_design.md`](final_design.md) ✳️
 
 [<h2>⬆ Back To Top ⬆</h2>](#i-deadlines)
 
@@ -123,7 +140,7 @@ After your design is complete, follow these steps:
 ```
 ## `IX. SUBMISSIONS`
 
-### `DESIGN SUBMISSION: Sunday 01/20 11:59PM`
+### `DESIGN SUBMISSION: Thursday 02/06 11:59PM`
 
 **🔶 Commit and Push to GitHub: 🔶**
 
@@ -135,16 +152,11 @@ After your design is complete, follow these steps:
       1. To make it clear that you understand what you've done, or 
       2. Where you need the most help in getting ready to write the code.
 
-Submit an additional file (PDF or image) containing:
-- A signed or emailed statement from your user that indicates their need for your software to solve this problem.
-- **✅ The document must be in the project folder and pushed to GitHub ✅**
-
-If you decided to design a smarter computer player, note that in your document and why you designed it that way, so that you can get feedback on your design.
-
-Your algorithm should follow the requirements of an algorithm, and contain all the requirements for this assignment. **There should not be any code.**
+Your algorithm should follow the requirements of an algorithm, and contain all the requirements for this assignment. 
+> **There should not be any code or anything that resbles code (e.g. print or input functions).**
 
 
-### `FINAL SUBMISSION due Monday 01/27 11:59PM`
+### `FINAL SUBMISSION due Thursday 02/13 11:59PM`
 **🔶 Commit and Push to GitHub: 🔶**
 
 1. Completed [`main.py`](main.py) file  
@@ -158,31 +170,8 @@ Your algorithm should follow the requirements of an algorithm, and contain all t
 6. A signed or emailed statement from a client that they are satisfied with your SW .
 
 
-**As a reminder, reflections count toward your participation grade.**
-
-Type the Reflection INSIDE the respective [markdown file](reflection.md) and addressing the following questions:
-
- - Objective:
-   - What were you supposed to learn/accomplish?
-
- - Procedure:
-   - What steps were followed and what techniques did you use to solve the problem?
-   - What were the Key concepts explored?
-
- - Results:
-   - Did your results match what you expected to get? 
-   - Did you try using various test cases, or extreme test cases?
-  
- - Reflection:
-   - What challenges did you encounter? 
-   - How did you follow the first 3 rules of programming?
-   - Did you overcome them, and how? 
-   - Any key takeaways? 
-   - Do you think you learned what you were supposed to learn for this lab? 
-   - What was it like working by yourself?
-   
 ***Remember to commit and push your GitHub project.***
 
 [<h2>⬆ Back To Top ⬆</h2>](#i-deadlines)
 
-✅✳️⬅️➡️⏺️🔼🟢🟡🔴🔵🟣🟠⛔️🟥🔶🔻🔺❌‼️❕
+✅✳️🔺🔺⏺️🔼🟢🟡🔴🔵🟣🟠⛔️🟥🔶🔻🔺❌‼️❕
