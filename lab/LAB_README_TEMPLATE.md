@@ -7,16 +7,16 @@
 <!-- TOC -->
   * [`I. DEADLINES`](#i-deadlines)
   * [`II. RESOURCES`](#ii-resources)
-  * [`III Problem`](#iii-problem)
-  * [`IV Purpose`](#iv-purpose)
-  * [`V Details`](#v-details)
+  * [`III PROBLEM`](#iii-problem)
+  * [`IV PURPOSE`](#iv-purpose)
+  * [`V DETAILS`](#v-details)
     * [File details](#file-details)
     * [Input](#input-)
     * [Output](#output)
     * [Programming Details](#programming-details)
-  * [`VI Design`](#vi-design)
+  * [`VI DESIGN`](#vi-design)
     * [Function design](#function-design-)
-  * [`VII Steps`](#vii-steps)
+  * [`VII STEPS`](#vii-steps)
   * [`VIII What to Submit in GitHub`](#viii-what-to-submit-in-github)
 <!-- TOC -->
 <h4> 🔵 Understand the problem and Design before Coding  </h4>
@@ -41,11 +41,11 @@
 **🟠 LLM-Based Codes Will Result in Penalty and Honor Code Violation 🟠**
 
 
-## `III Problem`
+## `III PROBLEM`
 You are organizing a dinner party with assigned seats. 
 - Create a program to read in all the attendees and then output the seat assignments.
 
-## `IV Purpose`
+## `IV PURPOSE`
 This lab gives you practice with: 
 * Following problem-solving techniques
 * Using for loops
@@ -53,7 +53,7 @@ This lab gives you practice with:
 * Storing data in lists
 * Processing a list
 
-## `V Details`
+## `V DETAILS`
 
 We want to have a class dinner party at the end of the semester. 
 - Catering services will provide as many tables as we need, with each table seating five people. 
@@ -95,7 +95,7 @@ Your program must read in all the information stored in the file, and store it i
 - Make sure your input/output follows good usability rules.
 - Use iterative development as you design algorithm and write code. Test as you go.
 
-## `VI Design`
+## `VI DESIGN`
 You must design your functions and their algorithms before you start coding. 
 - Think about the tasks that need to be solved. Be sure to look back at yesterday’s notes, as the setup is much the same.
 ### Function design 
@@ -115,7 +115,7 @@ You must design your functions and their algorithms before you start coding.
   # Return: [return value, it's type, and what it represents]
   ```
 
-## `VII Steps`
+## `VII STEPS`
 1. Make sure you understand the problem
 2. Determine the functions you need to solve this problem. 
    - `Remember that a function solves a high level task for the program.` 
@@ -153,8 +153,11 @@ You must design your functions and their algorithms before you start coding.
 3. Encrypted reflection files using the `FET.py`
    1. `RD1.md` -> Reflection for Drive 1
    2. `RD2.md` -> Reflection for Drive 2
-   - <img src="enc_steps.png" alt="">
-    
+   3. `RD3.md` -> Reflection for Drive 3
+- Find the file path this way
+  
+<img src="enc_steps.png" alt="">
+
 **As a reminder, reflections count toward your participation grade.**
 
 **Make sure the file in your PyCharm and Github is the same (i.e. Commit and Push)**
