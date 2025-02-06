@@ -154,6 +154,7 @@ You must design your functions and their algorithms before you start coding.
    1. `RD1.md` -> Reflection for Drive 1
    2. `RD2.md` -> Reflection for Drive 2
    3. `RD3.md` -> Reflection for Drive 3
+- **Unencrypted reflection will be considered unsubmitted**
 - Find the file path this way
   
 <img src="enc_steps.png" alt="">
