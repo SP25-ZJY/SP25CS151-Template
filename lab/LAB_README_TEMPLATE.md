@@ -148,12 +148,17 @@ You must design your functions and their algorithms before you start coding.
 
 ## `VIII What to Submit in GitHub`
 
-1. Completed `main.py` file  
-2. `algorithm.md`
-3. Encrypted reflection files using the `FET.py`
-   1. `RD1.md` -> Reflection for Drive 1
-   2. `RD2.md` -> Reflection for Drive 2
-   3. `RD3.md` -> Reflection for Drive 3
+1. Completed [`main.py`](main.py) file  
+2. Completed design on[`algorithm.md`](algorithm.md)
+3. Completed [`flowchart`](flowchart.drawio.svg)
+4. An Excel file with your test cases.
+   - Edit the [`test_cases.xlsx`](test_cases.xlsx) file with Excel software
+   - If it can open then ok. Otherwise
+     - Right click on [`test_cases.xlsx`](test_cases.xlsx)  -> Open In -> Associated Application
+5. Encrypted reflection files using the `FET.py`
+   1. [`RD1.md`](RD1.md) -> Reflection for Drive 1
+   2. [`RD2.md`](RD2.md)` -> Reflection for Drive 2
+   3. [`RD3.md`](RD3.md)` -> Reflection for Drive 3
 - **Unencrypted reflection will be considered unsubmitted**
 - Find the file path this way
   
