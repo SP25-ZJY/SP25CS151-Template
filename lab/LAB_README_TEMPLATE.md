@@ -116,6 +116,10 @@ You must design your functions and their algorithms before you start coding.
   ```
 
 ## `VII STEPS`
+
+N.B. Follow all the steps that may apply for this Lab.
+- i.e. Some of these steps are not needed for early labs
+
 1. Make sure you understand the problem
 2. Determine the functions you need to solve this problem. 
    - `Remember that a function solves a high level task for the program.` 
